@@ -11,7 +11,7 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 
 @bot.event
 async def on_ready():
-    print(f'Зашёл в {bot.user.name}')
+    print(f'Eingeloggt als {bot.user.name}')
     
     guild = bot.get_guild(GUILD_ID)
     
